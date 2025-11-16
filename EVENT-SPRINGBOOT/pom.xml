@@ -11,7 +11,7 @@
 	<groupId>com.klef.pro</groupId>
 	<artifactId>EVENT-SPRINGBOOT</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 	<name>EVENT-SPRINGBOOT</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
@@ -68,7 +68,6 @@
 </dependencies>
 
 	<build>
-	<finalName>eventspringboot</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
