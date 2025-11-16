@@ -1,5 +1,5 @@
-const BASE_URL = "http://localhost:2020/api/events";
-
+//const BASE_URL = "http://localhost:2020/api/events"; //without .env
+const BASE_URL = import.meta.env.VITE_API_BASE_URL
 // Get all events
 export async function getEvents() {
   const res = await fetch(BASE_URL);
